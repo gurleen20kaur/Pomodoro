@@ -1,0 +1,15 @@
+body{
+    background-color: cadetblue;
+}
+
+.buttons{
+    background-color:color-mix(in oklab, color percentage, color percentage);
+    color: blue;
+}
+
+.timer-display{
+    background-color: aqua;
+    opacity: 30%;
+    color:antiquewhite;
+    padding: 5px;
+}
