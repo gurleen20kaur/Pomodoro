@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="pomodoro.css">
         <title>
             Pomodoro
         </title>
         Welcome to Pomodoro Timer!
     </head>
     <body>
-        <div class="pomodoro-timer">
-            <div id="25">
-                <button>
-                    25:00
-                </button>
-            </div>
-            <div id="10">
-                <button>
-                    10:00
-                </button>
-            </div>
-            <div id="5">
-                <button>
-                    5:00
-                </button>
-            </div>
-        </div>
+        <div class="button-container">
+            <button class="button" id="pomodoro50">
+                50 minutes Pomodoro
+            </button>
+            <button class="button" id="pomodoro25">
+                25 minutes Pomodoro
+            </button>
+            <button class="button" id="pomodoro10">
+                10 minutes break
+            </button>
+            <button class="button" id="pomodoro5">
+                5 minutes break
+            </button>
 
-        <div id="timer-display">
+        <div class="timer-display" id="pomodoro50-timer">
 
         </div>
 
         <div class="buttons">
             <div id="start">
-                <button>
+                <button id="start">
                     start
                 </button>
             </div>
             <div id="resume">
-                <button>
+                <button id="resume">
                     resume
                 </button>
             </div>
             <div id="stop">
-                <button>
+                <button id="stop">
                     stop
                 </button>
             </div>
         </div>
+        <script src="pomodoro.js"></script>
     </body>
 
     
