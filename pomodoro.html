@@ -9,43 +9,53 @@
         Welcome to Pomodoro Timer!
     </head>
     <body>
-        <div class="button-container">
-            <button class="button" id="pomodoro50">
-                50 minutes Pomodoro
-            </button>
-            <button class="button" id="pomodoro25">
-                25 minutes Pomodoro
-            </button>
-            <button class="button" id="pomodoro10">
-                10 minutes break
-            </button>
-            <button class="button" id="pomodoro5">
-                5 minutes break
-            </button>
+        <div class="container">
+            <div class="button-container">
+                <button class="button" id="pomodoro50">
+                    50 minutes Pomodoro
+                </button>
+                <button class="button" id="pomodoro25">
+                    25 minutes Pomodoro
+                </button>
+                <button class="button" id="pomodoro10">
+                    10 minutes break
+                </button>
+                <button class="button" id="pomodoro5">
+                    5 minutes break
+                </button>
+            </div>
 
-        <div class="timer-display" id="pomodoro50-timer">
+            <div class="timer-display" id="pomodoro50-timer" data-timer="50.00">
+                50:00
+            </div>
+            <div class="timer-display" id="pomodoro25-timer" data-timer="25.00">
+                25:00
+            </div>
+            <div class="timer-display" id="pomodoro10-timer" data-timer="10.00">
+                10:00
+            </div>
+            <div class="timer-display" id="pomodoro5-timer" data-timer="5.00">
+                5:00
+            </div>
 
+            <div class="buttons">
+                <div id="start">
+                    <button id="start">
+                        start
+                    </button>
+                </div>
+                <div id="resume">
+                    <button id="resume">
+                        resume
+                    </button>
+                </div>
+                <div id="stop">
+                    <button id="stop">
+                        stop
+                    </button>
+                </div>
+            </div>
+            <script src="pomodoro.js"></script>
         </div>
-
-        <div class="buttons">
-            <div id="start">
-                <button id="start">
-                    start
-                </button>
-            </div>
-            <div id="resume">
-                <button id="resume">
-                    resume
-                </button>
-            </div>
-            <div id="stop">
-                <button id="stop">
-                    stop
-                </button>
-            </div>
-        </div>
-        <script src="pomodoro.js"></script>
     </body>
-
-    
 </html>

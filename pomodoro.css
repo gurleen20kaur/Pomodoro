@@ -8,8 +8,9 @@ body{
 }
 
 .timer-display{
-    background-color: aqua;
+    background-color: black;
     opacity: 30%;
     color:antiquewhite;
     padding: 5px;
+    font-size: 50px;
 }
